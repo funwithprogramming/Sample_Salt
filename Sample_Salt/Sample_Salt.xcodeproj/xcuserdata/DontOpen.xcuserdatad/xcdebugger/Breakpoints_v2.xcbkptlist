@@ -9,78 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sample_Salt/Views/ListViewCell.swift"
-            timestampString = "477316202.694736"
+            filePath = "Sample_Salt/ViewController.swift"
+            timestampString = "477320271.958207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "renderDataModel(model:)"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "prepareForSegue(_:sender:)"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Sample_Salt/Views/ListViewCell.swift"
-            timestampString = "477316198.259907"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "renderDataModel(model:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Sample_Salt/Views/ListViewCell.swift"
-            timestampString = "477316215.473957"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "renderDataModel(model:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sample_Salt.ListViewCell.renderDataModel (Sample_Salt.ListViewCell)(model : Swift.Optional&lt;Sample_Salt.ListObject&gt;) -&gt; ()"
-                  moduleName = "Sample_Salt"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/DontOpen/Sample_Salt/Sample_Salt/Sample_Salt/Views/ListViewCell.swift"
-                  timestampString = "477316215.476421"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "1947">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sample_Salt.ListViewCell.(renderDataModel (Sample_Salt.ListViewCell) -&gt; (model : Swift.Optional&lt;Sample_Salt.ListObject&gt;) -&gt; ()).(closure #1)"
-                  moduleName = "Sample_Salt"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/DontOpen/Sample_Salt/Sample_Salt/Sample_Salt/Views/ListViewCell.swift"
-                  timestampString = "477316215.477279"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "35">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

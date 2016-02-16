@@ -17,7 +17,10 @@ class ListObject {
   //Gives the description of Image
   var description :String?
   
-  class func getObjectFromJSON(modelJson:JSON)->ListObject?{
+  ///Function which creates datamodel from json
+  ///parameters: modelJSon- Json for object
+  ///returns: Model object
+  class func getObjectFromJSON(modelJson:JSON)-> ListObject? {
     
     let listObject   =        ListObject()
     listObject.image =        modelJson["image"].string

@@ -11,18 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
   
-  //Outlets
+  ///Outlets
+  ///
   @IBOutlet weak var tableViewList: UITableView!
   @IBOutlet var tableViewDataSourceAndDelegate: ListTable!
   
-  
+  ///Manages VC
   let vcManager = ViewControllerManager()
   
   override func viewDidLoad() {
     super.viewDidLoad()
   
     configureTableViewForAutolayout()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ///Load data from Json
+    ///
     vcManager.getDataArrayFromJson { [weak self](array:[ListObject]?) -> () in
       self?.tableViewDataSourceAndDelegate.dataArray = array
       dispatch_async(dispatch_get_main_queue(),{
@@ -31,10 +34,20 @@ class ViewController: UIViewController {
     }
   }
   
-  //MAkes cell auto resizable
+  ///Makes cell auto resizable
+  ///b
   func configureTableViewForAutolayout() {
     tableViewList.rowHeight = UITableViewAutomaticDimension
     tableViewList.estimatedRowHeight = 160.0
+  }
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    let selIndexPath = tableViewList.indexPathForSelectedRow
+    let model = self.tableViewDataSourceAndDelegate.dataArray![selIndexPath!.row]
+    let destVC = segue.destinationViewController as? ItemDetailsViewController
+    destVC?.dataModel = model
+    
   }
   
 

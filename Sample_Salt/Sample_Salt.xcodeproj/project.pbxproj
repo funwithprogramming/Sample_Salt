@@ -37,6 +37,7 @@
 		E811A74F1C71D9660004EFBB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E811A73E1C71D9660004EFBB /* UIImageView+WebCache.m */; };
 		E811A7501C71D9660004EFBB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E811A7401C71D9660004EFBB /* UIView+WebCacheOperation.m */; };
 		E811A75D1C71DD6B0004EFBB /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E811A75C1C71DD6B0004EFBB /* images.jpg */; };
+		E811A7611C734E530004EFBB /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E811A7601C734E530004EFBB /* ItemDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		E811A7401C71D9660004EFBB /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		E811A75B1C71DC8D0004EFBB /* Sample_Salt-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sample_Salt-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		E811A75C1C71DD6B0004EFBB /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		E811A7601C734E530004EFBB /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				E811A6E11C71B67F0004EFBB /* AppDelegate.swift */,
 				E811A6E31C71B67F0004EFBB /* ViewController.swift */,
 				E811A7151C71BA860004EFBB /* ViewControllerManager.swift */,
+				E811A7601C734E530004EFBB /* ItemDetailsViewController.swift */,
 				E811A6E51C71B67F0004EFBB /* Main.storyboard */,
 				E811A6ED1C71B67F0004EFBB /* LaunchScreen.storyboard */,
 				E811A7121C71BA230004EFBB /* Views */,
@@ -406,6 +409,7 @@
 				E811A7191C71BB2A0004EFBB /* ListObject.swift in Sources */,
 				E811A74A1C71D9660004EFBB /* UIButton+WebCache.m in Sources */,
 				E811A7491C71D9660004EFBB /* SDWebImagePrefetcher.m in Sources */,
+				E811A7611C734E530004EFBB /* ItemDetailsViewController.swift in Sources */,
 				E811A7471C71D9660004EFBB /* SDWebImageDownloaderOperation.m in Sources */,
 				E811A7141C71BA310004EFBB /* ListViewCell.swift in Sources */,
 				E811A6EA1C71B67F0004EFBB /* Sample_Salt.xcdatamodeld in Sources */,
@@ -646,6 +650,7 @@
 				E811A70B1C71B6800004EFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E811A70C1C71B6800004EFBB /* Build configuration list for PBXNativeTarget "Sample_SaltTests" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +659,7 @@
 				E811A70E1C71B6800004EFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E811A70F1C71B6800004EFBB /* Build configuration list for PBXNativeTarget "Sample_SaltUITests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +668,7 @@
 				E811A7111C71B6800004EFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
