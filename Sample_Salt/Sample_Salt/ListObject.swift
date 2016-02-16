@@ -10,8 +10,20 @@ import Foundation
 
 class ListObject {
   
-  class func getObjectFromJSON(modelJson:JSON){
+  //Gives the url of Image
+  var image       :String?
+  //Gives the title associated of Image
+  var title       :String?
+  //Gives the description of Image
+  var description :String?
+  
+  class func getObjectFromJSON(modelJson:JSON)->ListObject?{
     
+    let listObject   =        ListObject()
+    listObject.image =        modelJson["image"].string
+    listObject.title =        modelJson["title"].string
+    listObject.description =  modelJson["description"].string
+    return listObject
   }
   
 }
